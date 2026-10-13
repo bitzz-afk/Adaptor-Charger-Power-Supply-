@@ -8,11 +8,12 @@ Perancangan dan pengujian sirkuit penyearah daya gelombang AC ke DC teregulasi m
 Proyek ini melakukan perancangan, pemodelan, dan analisis karakteristik sirkuit catu daya (power supply) charger dari sumber tegangan AC jala-jala listrik menuju output tegangan DC 5V stabil menggunakan perangkat lunak NI Multisim. Proyek ini membandingkan pengaruh nilai kapasitansi filter terhadap faktor riak (*ripple factor*) pada gelombang keluaran.
 
 ## 📐 Spesifikasi Parameter Desain & Komponen
-- **Tegangan Input:** AC \(311\text{ Vpk}\) (\(220\text{ Vrms}\)), \(50\text{ Hz}\) melalui Transformator Step-Down (Rasio Tegangan Sekunder 18.3).
-- **Blok Penyearah:** Konfigurasi Full-Wave Rectifier menggunakan 4x Dioda **1N4001**.
-- **Blok Regulator:** IC Regulator **LM7805CT** untuk mengunci output tegangan konstan pada level **5 VDC**.
-- **Beban Keluaran:** Resistor \(330\ \Omega\) dilengkapi dengan indikator visual LED.
+- **Tegangan Input:** AC 311 Vpk (220 Vrms), 50 Hz melalui Transformator Step-Down (Rasio Tegangan Sekunder 18.3).
+- **Blok Penyearah:** Konfigurasi Full-Wave Rectifier menggunakan 4x Dioda 1N4001.
+- **Blok Regulator:** IC Regulator LM7805CT untuk mengunci output tegangan konstan pada level 5 VDC.
+- **Beban Keluaran:** Resistor 330 Ohm dilengkapi dengan indikator visual LED.
 - **File Mentah Simulasi:** Tersedia di repositori ini (`PROJECT PRAK ELMAG CHARGER.ms14` file) untuk pengujian sirkuit interaktif langsung.
+
 
 ## 📊 Analisis Karakteristik Perubahan Sinyal
 
